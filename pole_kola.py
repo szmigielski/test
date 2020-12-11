@@ -23,7 +23,7 @@ class Mathematic():
             field_calculation = 2 * 3.14 * r
             print(f"Obwód koła o promieniu {r} wynosi {field_calculation}")
         
-        if circle_ask != 1 and circle_ask != 2:
+        else:
             print("Nie podałeś dobrego programu")
             
 
